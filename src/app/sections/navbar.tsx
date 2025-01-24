@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Image from "next/image";
-import logo from "../../../public/logo.png";
+// import Image from "next/image";
+// import logo from "../../../public/logo.png";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
