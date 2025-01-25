@@ -11,7 +11,8 @@ export default function Navbar() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="bg-black text-white p-4 shadow-md">
+   <div className="">
+     <nav className="bg-[none] fixed top-0 left-0 w-full z-30 text-white p-[12px] sm:p-[0px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <a href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">wn</a>
@@ -79,5 +80,6 @@ export default function Navbar() {
         </a>
       </div>
     </nav>
+   </div>
   );
 }
