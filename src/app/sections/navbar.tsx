@@ -1,5 +1,5 @@
 'use client';
-
+import Link from "next/link";
 import { useState } from 'react';
 // import Image from "next/image";
 // import logo from "../../../public/logo.png";
@@ -19,10 +19,10 @@ export default function Navbar() {
 
         {/* Desktop Navbar Links */}
         <div className="hidden md:flex space-x-8">
-          <a href="/" className="hover:text-orange-500 transition-all">Home</a>
-          <a href="/about" className="hover:text-orange-500 transition-all">About</a>
-          <a href="/services" className="hover:text-orange-500 transition-all">Services</a>
-          <a href="/contact" className="hover:text-orange-500 transition-all">Contact</a>
+          <Link href="/" className="hover:text-orange-500 transition-all">Home</Link>
+          <Link href="/about" className="hover:text-orange-500 transition-all">About</Link>
+          <Link href="/services" className="hover:text-orange-500 transition-all">Services</Link>
+          <Link href="/contact" className="hover:text-orange-500 transition-all">Contact</Link>
         </div>
 
         {/* Hamburger Icon */}
