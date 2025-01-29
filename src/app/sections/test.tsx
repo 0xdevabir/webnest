@@ -26,7 +26,7 @@ export default function Test() {
     <div className="relative h-[screen] w-full overflow-hidden bg-cover bg-center bg-no-repeat " style={{ backgroundImage: 'url(/test-1.jpg)' }}>
         <Head/>
       <div className="absolute inset-0 bg-[black] opacity-5 pointer-events-none"></div>
-      <div ref={cursorEffectRef} className="cursor-effect absolute inset-0 pointer-events-none hidden "></div>
+      <div ref={cursorEffectRef} className="cursor-effect absolute inset-0 pointer-events-none  "></div>
     </div>
   );
 }

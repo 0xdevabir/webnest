@@ -15,7 +15,7 @@ export default function Navbar() {
      <nav className="bg-[none] fixed top-0 left-0 w-full z-30 text-white p-[12px] sm:p-[0px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">wn</a>
+        <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">wn</Link>
 
         {/* Desktop Navbar Links */}
         <div className="hidden md:flex space-x-8">
@@ -54,30 +54,30 @@ export default function Navbar() {
           isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >
-        <a
+        <Link
           href="/"
           className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-100"
         >
           Home
-        </a>
-        <a
+        </Link>
+        <Link
           href="/about"
           className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-200"
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           href="/services"
           className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-300"
         >
           Services
-        </a>
-        <a
+        </Link>
+        <Link
           href="/contact"
           className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-400"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
    </div>
