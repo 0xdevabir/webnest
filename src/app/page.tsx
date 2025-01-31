@@ -1,19 +1,17 @@
 // import Image from "next/image";
-import Head from "./sections/head"
-import Navbar from "./sections/navbar";
-import Test from "./sections/test"
+import About from "../component/about"
+import Navbar from "../component/navbar";
+import Header from "../component/header"
 
 export default function Home() {
   return (
     <div className="">
-        <div className="">
-           <Navbar/>
-        </div>
         
-        <div className="">
-          <Test/>
-        </div>
-        <Head/>
+          <Navbar/>
+        
+          <Header/>
+          
+          <About/>
     </div>
   );
 }
