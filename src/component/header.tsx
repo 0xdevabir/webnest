@@ -6,12 +6,12 @@ export default function Test() {
   const cursorEffectRef = useRef(null);
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => { 
       const { clientX: x, clientY: y } = e;
       if (cursorEffectRef.current) {
-        cursorEffectRef.current.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.2) 1%, rgba(0, 0, 0, 1) 30%)`;
+          cursorEffectRef.current.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.2) 1%, rgba(0, 0, 0, 1) 30%)`;
       }
-    };
+  };
 
     document.addEventListener('mousemove', handleMouseMove);
 
