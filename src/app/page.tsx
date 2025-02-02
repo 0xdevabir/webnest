@@ -5,7 +5,7 @@ import Header from "../component/header"
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
         
           <Navbar/>
         
