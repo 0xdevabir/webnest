@@ -3,22 +3,19 @@
 import { useEffect, useRef } from 'react';
 
 export default function Test() {
-  const cursorEffectRef = useRef(null);
+  const cursorEffectRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => { 
-      const { clientX: x, clientY: y } = e;
-      if (cursorEffectRef.current) {
-          cursorEffectRef.current.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.2) 1%, rgba(0, 0, 0, 1) 30%)`;
-      }
-  };
+    useEffect(() => {
+        const handleMouseMove = (e: MouseEvent) => { 
+            const { clientX: x, clientY: y } = e;
+            if (cursorEffectRef.current) {
+                cursorEffectRef.current.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.2) 1%, rgba(0, 0, 0, 1) 30%)`;
+            }
+        };
 
-    document.addEventListener('mousemove', handleMouseMove);
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
+        window.addEventListener("mousemove", handleMouseMove);
+        return () => window.removeEventListener("mousemove", handleMouseMove);
+    }, []);
 
   return (
     
