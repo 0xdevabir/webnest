@@ -39,7 +39,7 @@ export default function Test() {
           </div>
           
       </div>
-      <div className="absolute inset-0 bg-[black] opacity-5 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[#000000] opacity-5 pointer-events-none"></div>
       <div ref={cursorEffectRef} className="cursor-effect absolute inset-0 pointer-events-none hidden sm:block"></div>
     </div>
   );
