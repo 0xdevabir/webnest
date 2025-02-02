@@ -1,6 +1,5 @@
 // pages/index.js
 'use client';
-import Head from "./about"
 import { useEffect, useRef } from 'react';
 
 export default function Test() {
