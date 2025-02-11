@@ -1,7 +1,8 @@
 // import Image from "next/image";
 import About from "../component/about"
 import Navbar from "../component/navbar";
-import Header from "../component/header"
+import Header from "../component/header";
+import EMP from "../component/emp"
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
           <Header/>
           
           <About/>
+          <div className="h-[50vh]"></div>
+          <EMP/>
+          <div className="h-[50vh]"></div>
     </div>
   );
 }
