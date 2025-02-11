@@ -2,28 +2,28 @@
 
 import Image from 'next/image';
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-const employees = [
-  {
-    name: 'Abir Hossain',
-    position: 'Front-End Developer',
-    bio: 'Passionate about building interactive UI with React and Tailwind CSS.',
-    image: '/abir.jpg',
-    social: {
-      linkedin: '#',
-      github: '#',
-    },
-  },
-  {
-    name: 'John Doe',
-    position: 'Full-Stack Developer',
-    bio: 'Experienced in MERN stack development and API integration.',
-    image: '/hot-tech.png',
-    social: {
-      linkedin: '#',
-      github: '#',
-    },
-  },
-];
+// const employees = [
+//   {
+//     name: 'Abir Hossain',
+//     position: 'Front-End Developer',
+//     bio: 'Passionate about building interactive UI with React and Tailwind CSS.',
+//     image: '/abir.jpg',
+//     social: {
+//       linkedin: '#',
+//       github: '#',
+//     },
+//   },
+//   {
+//     name: 'John Doe',
+//     position: 'Full-Stack Developer',
+//     bio: 'Experienced in MERN stack development and API integration.',
+//     image: '/hot-tech.png',
+//     social: {
+//       linkedin: '#',
+//       github: '#',
+//     },
+//   },
+// ];
 
 export default function emp() {
   return (
