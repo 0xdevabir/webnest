@@ -11,11 +11,13 @@ export default function Home() {
           <Navbar/>
         
           <Header/>
-          
-          <About/>
           <div className="h-[50vh]"></div>
           <EMP/>
-          <div className="h-[50vh]"></div>
+          <div className="h-[20vh]"></div>
+          <About/>
+         
+          
+          <div className="h-[20vh]"></div>
     </div>
   );
 }
