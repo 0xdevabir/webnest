@@ -29,6 +29,9 @@ export default function emp() {
   return (
     <div className="">
         
+        <div className="bg-white h-[40vh] md:h-[50vh] flex justify-center items-center">
+            <p className="text-[30px] md:text-[100px] font-[700] text-[#000000e0]">Our Team</p>
+        </div>
 
         <div className="w-[100vw] flex flex-wrap justify-around">
 
