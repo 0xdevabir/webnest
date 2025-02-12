@@ -2,7 +2,7 @@
 import About from "../component/about"
 import Navbar from "../component/navbar";
 import Header from "../component/header";
-import EMP from "../component/emp"
+import Team from "../component/emp"
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         
           <Header/>
           
-          <EMP/>
+          <Team/>
           <div className="h-[20vh]"></div>
           <About/>
          
