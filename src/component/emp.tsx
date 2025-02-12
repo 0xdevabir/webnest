@@ -28,7 +28,7 @@ import 'aos/dist/aos.css';
 //   },
 // ];
 
-export default function team() {
+export default function Team() {
     useEffect(() => {
         AOS.init({
           duration: 1000, // Animation duration in ms
