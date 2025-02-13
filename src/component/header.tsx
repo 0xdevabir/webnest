@@ -20,6 +20,7 @@ export default function Test() {
   return (
     
     <div className="relative h-[screen] w-full overflow-hidden bg-cover bg-center bg-no-repeat " style={{ backgroundImage: 'url(/test-1.jpg)' }}>
+      
         {/* H   E   A   D */}
       <div className='h-[100vh] bg-[#000000dc] z-50'>
           <div className='h-[80vh] leading-[100px] relative'>

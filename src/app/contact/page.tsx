@@ -32,7 +32,7 @@ export default function Contact() {
         // Main Contact Form or content
         <div className="text-center">
           <p className='text-[80px] font-[800] text-white' data-aos="fade-up">HELLO</p>
-          <Link href="/"><button className='text-white'>Go Home</button></Link>
+          <Link href="/"><button className='text-white' data-aos="fade-up">Go Home</button></Link>
         </div>
       )}
     </div>
