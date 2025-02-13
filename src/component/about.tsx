@@ -121,7 +121,7 @@ export default function About() {
 
 
 
-<div className=" w-[100vw]">
+<div className=" w-[100vw] hidden">
         <div className="bg-white h-[30vh] md:h-[50vh] flex justify-center items-center">
             <p className="text-[30px] md:text-[100px] font-[700] text-[#000000e0]">Our Projects</p>
         </div>
