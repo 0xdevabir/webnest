@@ -39,22 +39,27 @@ export default function Team() {
   return (
     <div className="">
         
-        <div className="h-[40vh] md:h-[50vh] flex justify-center items-center">
-            <p className="text-[30px] md:text-[100px] font-[700] text-[#000000e0]" data-aos="fade-up">Our Team</p>
+        <div className="h-[40vh] md:h-[80vh] flex justify-center items-center bg-gradient-to-b from-[#0a192f] to-[#0a192fb4]">
+            <p className="text-[30px] md:text-[100px] font-[700] text-[white]" data-aos="fade-up">Our Team</p>
         </div>
 
-        <div className="w-[100vw] flex flex-wrap justify-evenly">
+       <div className="bg-gradient-to-b from-[#0a192fb4] to-[white]">
 
-         
+
+
+
+                <div className="w-[100vw] flex flex-wrap justify-evenly">
+
+                    
             <div className=" bg-gradient-to-br from-[#0a192f] to-[#121212] py-0 md:py-[50px] w-[90%] md:w-[40%] rounded-[28px]" data-aos="fade-right">
                 <div className="flex flex-wrap items-center w-[100%]">
                     <div className="w-[100%] md:w-[40%] flex justify-center" data-aos="fade-right">
-                      <Image
+                    <Image
                             src="/abir.jpg"
                             alt="Hot Tech"
                             width={5000}
                             height={5000}
-                            className="w-[200px] md:w-[350px] relative right-0 md:right-[50px] bottom-[80px] md:bottom-0 rounded-[350px] md:rounded-[28px] border-[6px] md:border-[0px] border-black hover:scale-[1.02] transition-all cursor-pointer"
+                            className="w-[200px] md:w-[350px] relative right-0 md:right-[50px] bottom-[80px] md:bottom-0 rounded-[350px] md:rounded-[28px] border-[6px] md:border-[0px] border-[#ffffff9e] hover:scale-[1.02] transition-all cursor-pointer"
                         />
                     </div>
                     <div className="w-[100%] md:w-[60%] pl-[25px] md:pl-0 pr-[25px] relative bottom-[40px] md:bottom-0 text-center md:text-left">
@@ -62,9 +67,9 @@ export default function Team() {
                         <p className="text-[18px] font-[600] text-[#fffffff2] py-[20px]">Founder & Executive Director/CEO</p>
                         <p className="text-[16px] font-[400] text-[#ffffffde] text-center md:text-left">Passionate about building sleek, user-friendly web experiences with React. Always exploring new technologies to enhance web development.</p>
                         <div className="py-[20px] flex justify-center md:justify-start gap-5">
-                          <FaGithub className='text-[25px] md:text-[40px] text-white'/>
-                          <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
-                          <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
+                        <FaGithub className='text-[25px] md:text-[40px] text-white'/>
+                        <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
+                        <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
                         </div>
 
                     </div>
@@ -74,7 +79,7 @@ export default function Team() {
                 <div className="flex flex-wrap items-center w-[100%]">
 
                 <div className="w-[100%] md:w-[40%] flex justify-center md:hidden">
-                      <Image
+                    <Image
                             src="/Arif.jpg"
                             alt="Hot Tech"
                             width={5000}
@@ -88,14 +93,14 @@ export default function Team() {
                         <p className="text-[18px] font-[600] text-[#fffffff2] py-[20px]">Co-Founder & CTO</p>
                         <p className="text-[16px] font-[400] text-[#ffffffde] text-center md:text-right">Leading innovation at WebNest with expertise in backend and scalable systems. Passionate about building robust web solutions.</p>
                         <div className="py-[20px] flex justify-center md:justify-end gap-5">
-                          <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
-                          <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
-                          <FaGithub className='text-[25px] md:text-[40px] text-white'/>
+                        <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
+                        <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
+                        <FaGithub className='text-[25px] md:text-[40px] text-white'/>
                         </div>
 
                     </div>
                     <div className="w-[100%] md:w-[40%] flex justify-center hidden md:block" data-aos="fade-left">
-                      <Image
+                    <Image
                             src="/Arif.jpg"
                             alt="Hot Tech"
                             width={5000}
@@ -108,7 +113,7 @@ export default function Team() {
                 </div>
             </div>
 
-        </div>
+            </div>
 
 
 
@@ -119,13 +124,13 @@ export default function Team() {
 
 
 
-        <div className="w-[100vw] flex flex-wrap justify-evenly mt-[14vh]">
+            <div className="w-[100vw] flex flex-wrap justify-evenly mt-[14vh]">
 
                 
-        <div className="bg-gradient-to-br from-[#0a192f] to-[#121212] py-0 md:py-[50px] w-[90%] md:w-[40%] rounded-[28px]" data-aos="fade-right">
+            <div className="bg-gradient-to-br from-[#0a192f] to-[#121212] py-0 md:py-[50px] w-[90%] md:w-[40%] rounded-[28px]" data-aos="fade-right">
             <div className="flex flex-wrap items-center w-[100%]">
                 <div className="w-[100%] md:w-[40%] flex justify-center" data-aos="fade-right">
-                  <Image
+                <Image
                         src="/arafat.jpeg"
                         alt="Hot Tech"
                         width={5000}
@@ -138,19 +143,19 @@ export default function Team() {
                     <p className="text-[18px] font-[600] text-[#fffffff2] py-[20px]">Co-Founder & COO</p>
                     <p className="text-[16px] font-[400] text-[#ffffffde] text-center md:text-left">Keeping the team aligned, projects on track, and operations running smoothly. Loves building efficient systems.</p>
                     <div className="py-[20px] flex justify-center md:justify-start gap-5">
-                      <FaGithub className='text-[25px] md:text-[40px] text-white'/>
-                      <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
-                      <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
+                    <FaGithub className='text-[25px] md:text-[40px] text-white'/>
+                    <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
+                    <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
                     </div>
 
                 </div>
             </div>
-        </div>
-        <div className="bg-gradient-to-tr from-[#121212] to-[#0a192f] py-0 md:py-[50px] w-[90%] md:w-[40%] rounded-[28px] mt-[20vh] md:mt-0" data-aos="fade-left">
+            </div>
+            <div className="bg-gradient-to-tr from-[#121212] to-[#0a192f] py-0 md:py-[50px] w-[90%] md:w-[40%] rounded-[28px] mt-[20vh] md:mt-0" data-aos="fade-left">
             <div className="flex flex-wrap items-center w-[100%]">
 
             <div className="w-[100%] md:w-[40%] flex justify-center md:hidden" data-aos="fade-left">
-                  <Image
+                <Image
                         src="/touhid.jpeg"
                         alt="Hot Tech"
                         width={5000}
@@ -164,14 +169,14 @@ export default function Team() {
                     <p className="text-[18px] font-[600] text-[#fffffff2] py-[20px]">UX/UI Designer</p>
                     <p className="text-[16px] font-[400] text-[#ffffffde] text-center md:text-right">Crafting beautiful, intuitive designs that prioritize user experience. Passionate about blending creativity with functionality.</p>
                     <div className="py-[20px] flex justify-center md:justify-end gap-5">
-                      <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
-                      <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
-                      <FaGithub className='text-[25px] md:text-[40px] text-white'/>
+                    <FaInstagram className='text-[25px] md:text-[40px] text-white'/>
+                    <FaLinkedin className='text-[25px] md:text-[40px] text-white'/>
+                    <FaGithub className='text-[25px] md:text-[40px] text-white'/>
                     </div>
 
                 </div>
                 <div className="w-[100%] md:w-[40%] flex justify-center hidden md:block" data-aos="fade-left">
-                  <Image
+                <Image
                         src="/touhid.jpeg"
                         alt="Hot Tech"
                         width={5000}
@@ -182,11 +187,15 @@ export default function Team() {
 
 
             </div>
-        </div>
+            </div>
 
-        </div>
+            </div>
 
 
+
+
+
+       </div>
 
 
 

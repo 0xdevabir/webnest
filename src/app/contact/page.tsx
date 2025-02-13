@@ -25,8 +25,8 @@ export default function Contact() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-black">
       {/* Initial "Hello" message */}
       {isLoading ? (
-        <div className="text-[40px] text-center opacity-100 transition-opacity duration-1000 text-white" data-aos="fade-up">
-          “Ready to take your website to the next level? Let&apos;s build something amazing together!”
+        <div className="text-[40px] sm:text-[70px] font-[900] text-center opacity-100 transition-opacity duration-1000 text-white" data-aos="fade-up">
+          “Let&apos;s build something amazing together!”
         </div>
       ) : (
         // Main Contact Form or content

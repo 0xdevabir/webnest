@@ -3,6 +3,7 @@ import About from "../component/about"
 import Navbar from "../component/navbar";
 import Header from "../component/header";
 import Team from "../component/emp"
+import AboutUs from  "../component/aboutUs"
 
 export default function Home() {
   return (
@@ -11,9 +12,15 @@ export default function Home() {
           <Navbar/>
         
           <Header/>
+
+          <AboutUs/>
           
           <Team/>
+
+          
           <div className="h-[20vh]"></div>
+
+
           <About/>
          
           
