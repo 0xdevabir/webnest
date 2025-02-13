@@ -62,7 +62,7 @@ export default function Home() {
       {/* Loader Section */}
       {loading && (
         <div className="fixed inset-0 flex items-center justify-center bg-black text-white text-[40px] sm:text-[70px] font-[900] opacity-100 transition-opacity duration-1000 delay-500">
-          <div className="text-center" data-aos='fade-zoom-in'>Loading something awesome...</div>
+          <div className="text-center animate-pulse" data-aos='fade-zoom-in'>Loading something awesome...</div>
         </div>
       )}
 

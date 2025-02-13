@@ -39,11 +39,11 @@ export default function Team() {
   return (
     <div className="">
         
-        <div className="h-[40vh] md:h-[80vh] flex justify-center items-center bg-gradient-to-b from-[#0a192f] to-[#0a192fb4]">
+        <div className="h-[40vh] md:h-[60vh] flex justify-center items-center bg-gradient-to-b from-[#0a192f] to-[#0a192fb4]">
             <p className="text-[30px] md:text-[100px] font-[700] text-[white]" data-aos="fade-up">Our Team</p>
         </div>
 
-       <div className="bg-gradient-to-b from-[#0a192fb4] to-[white]">
+       <div className="bg-gradient-to-b from-[#0a192fb4] to-[white] pb-[10vh]">
 
 
 
