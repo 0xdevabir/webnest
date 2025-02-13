@@ -18,11 +18,11 @@ export default function Navbar() {
         <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">wn</Link>
 
         {/* Desktop Navbar Links */}
-        <div className="hidden md:flex space-x-8">
-          <Link href="/" className="hover:text-orange-500 transition-all">Home</Link>
-          <Link href="/about" className="hover:text-orange-500 transition-all">About</Link>
-          <Link href="/services" className="hover:text-orange-500 transition-all">Services</Link>
-          <Link href="/contact" className="hover:text-orange-500 transition-all">Contact</Link>
+        <div className="hidden md:flex space-x-10 text-[20px] font-[600]">
+          <Link href="/" className="hover:text-[#96eefb] transition-all">Home</Link>
+          <Link href="/about" className="hover:text-[#96eefb] transition-all">About</Link>
+          <Link href="/services" className="hover:text-[#96eefb] transition-all">Services</Link>
+          <Link href="/contact" className="hover:text-[#96eefb] transition-all">Contact</Link>
         </div>
 
         {/* Hamburger Icon */}
@@ -56,25 +56,25 @@ export default function Navbar() {
       >
         <Link
           href="/"
-          className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-100"
+          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-100"
         >
           Home
         </Link>
         <Link
           href="/about"
-          className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-200"
+          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-200"
         >
           About
         </Link>
         <Link
           href="/services"
-          className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-300"
+          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-300"
         >
           Services
         </Link>
         <Link
           href="/contact"
-          className="text-lg text-white py-2 hover:text-orange-500 transition-all duration-300 delay-400"
+          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-400"
         >
           Contact
         </Link>

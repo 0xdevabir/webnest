@@ -4,6 +4,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -63,6 +64,13 @@ export default function AboutUs() {
       <p className="mt-4 max-w-2xl text-lg relative z-10">
         We are passionate developers creating awesome web experiences. Our mission is to build modern, scalable, and high-performance web applications.
       </p>
+      <Image
+             src="/astro.png"
+             alt="Hot Tech"
+             width={5000}
+             height={5000}
+             className="w-[200px] md:w-[350px] relative right-0 md:right-[50px] bottom-[80px] md:bottom-0 rounded-[350px] md:rounded-[28px] border-[6px] md:border-[0px] border-[#ffffff9e] hover:scale-[1.02] transition-all cursor-pointer"
+         />
     </section>
   );
 }
