@@ -22,6 +22,8 @@ export default function Navbar() {
           <Link href="/" className="hover:text-[#96eefb] transition-all">Home</Link>
           <Link href="/about" className="hover:text-[#96eefb] transition-all">About</Link>
           <Link href="/services" className="hover:text-[#96eefb] transition-all">Services</Link>
+          <Link href="/portfolio" className="hover:text-[#96eefb] transition-all">Portfolio</Link>
+          <Link href="/blog" className="hover:text-[#96eefb] transition-all">Blog</Link>
           <Link href="/contact" className="hover:text-[#96eefb] transition-all">Contact</Link>
         </div>
 
@@ -54,30 +56,55 @@ export default function Navbar() {
           isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >
-        <Link
-          href="/"
-          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-100"
-        >
-          Home
-        </Link>
-        <Link
-          href="/about"
-          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-200"
-        >
-          About
-        </Link>
-        <Link
-          href="/services"
-          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-300"
-        >
-          Services
-        </Link>
-        <Link
-          href="/contact"
-          className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-400"
-        >
-          Contact
-        </Link>
+        <div
+  className={`z-10 md:hidden fixed inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center space-y-6 transition-all duration-500 ${
+    isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+  }`}
+>
+  <Link
+    href="/"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-100"
+  >
+    Home
+  </Link>
+  <Link
+    href="/about"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-200"
+  >
+    About
+  </Link>
+  <Link
+    href="/services"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-300"
+  >
+    Services
+  </Link>
+  <Link
+    href="/porfolio"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-300"
+  >
+    Portfolio
+  </Link>
+  <Link
+    href="/blog"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-400"
+  >
+    Blog
+  </Link>
+  <Link
+    href="/contact"
+    onClick={() => setIsMenuOpen(false)}
+    className="text-[20px] font-[600] text-white py-2 hover:text-[#96eefb] transition-all duration-300 delay-500"
+  >
+    Contact
+  </Link>
+</div>
+
       </div>
     </nav>
    </div>

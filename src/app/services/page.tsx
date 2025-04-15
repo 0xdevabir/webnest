@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export default function Contact() {
+export default function Services() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Contact() {
       ) : (
         // Main Contact Form or content
         <div className="text-center">
-          <p className='text-[80px] font-[800] text-white' data-aos="fade-up">Contact</p>
+          <p className='text-[80px] font-[800] text-white' data-aos="fade-up">Services</p>
         </div>
       )}
     </div>
