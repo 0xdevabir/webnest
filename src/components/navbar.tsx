@@ -15,16 +15,19 @@ export default function Navbar() {
      <nav className="bg-transparent absolute top-0 left-0 w-full z-30 text-white p-[12px] sm:p-[0px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">wn</Link>
+        <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">
+            <span className="text-[#2F3737]">w</span>
+            <span className="text-[#A8BCA1]">n</span>
+        </Link>
 
         {/* Desktop Navbar Links */}
         <div className="hidden md:flex space-x-10 text-[20px] font-[600]">
-          <Link href="/" className="hover:text-[#96eefb] transition-all">Home</Link>
-          <Link href="/about" className="hover:text-[#96eefb] transition-all">About</Link>
-          <Link href="/services" className="hover:text-[#96eefb] transition-all">Services</Link>
-          <Link href="/portfolio" className="hover:text-[#96eefb] transition-all">Portfolio</Link>
-          <Link href="/blog" className="hover:text-[#96eefb] transition-all">Blog</Link>
-          <Link href="/contact" className="hover:text-[#96eefb] transition-all">Contact</Link>
+          <Link href="/" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">Home</Link>
+          <Link href="/about" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">About</Link>
+          <Link href="/services" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">Services</Link>
+          <Link href="/portfolio" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">Portfolio</Link>
+          <Link href="/blog" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">Blog</Link>
+          <Link href="/contact" className="text-[#2F3737] hover:text-[#A8BCA1] transition-all">Contact</Link>
         </div>
 
         {/* Hamburger Icon */}
