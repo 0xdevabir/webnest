@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
         <div className="flex justify-center items-center flex-col min-h-screen bg-[#F5DEB3]">
-          <p className='text-[180px] font-[900]'>
+          <p className='text-[60px] md:text-[180px] font-[900]'>
             <span className="text-[#2F3737]">web</span>
             <span className="text-[#A8BCA1]">nest</span>
           </p>
