@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import { useState } from 'react';
-// import Image from "next/image";
+import Image from "next/image";
 // import logo from "../../../public/logo.png";
 
 export default function Navbar() {
@@ -15,9 +15,18 @@ export default function Navbar() {
      <nav className="bg-transparent absolute top-0 left-0 w-full z-30 text-white p-[12px] sm:p-[0px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">
+        {/* <Link href="/" className="text-[8vw] sm:text-[4vw] font-bold z-20">
             <span className="text-[#2F3737]">w</span>
             <span className="text-[#A8BCA1]">n</span>
+        </Link> */}
+        <Link href="/">
+          <Image
+              src="/logo.svg"
+              alt="maintenance"
+              width={200}
+              height={200}
+              className="h-[120px]"
+          />
         </Link>
 
         {/* Desktop Navbar Links */}
