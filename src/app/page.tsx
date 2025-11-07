@@ -25,7 +25,7 @@ const Home = () => {
               width={200}
               height={200}
           />
-          <h1 className="text-[32px] font-[600]">In Maintenance</h1>
+          <h1 className="text-[32px] font-[600]">In Maintenance.</h1>
         </div>
     </div>
   )
