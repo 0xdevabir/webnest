@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 
 const Home = () => {
@@ -18,13 +19,13 @@ const Home = () => {
               </div>
           </div>
 
-          {/* <Image
+          <Image
               src="/maintenance.png"
               alt="maintenance"
               width={200}
               height={200}
           />
-          <h1 className="text-[32px] font-[600]">In Maintenance</h1> */}
+          <h1 className="text-[32px] font-[600]">In Maintenance</h1>
         </div>
     </div>
   )
